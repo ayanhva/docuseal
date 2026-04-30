@@ -3,9 +3,7 @@ services:
     depends_on:
       postgres:
         condition: service_healthy
-    # TODO: replace with the GHCR image you pushed
-    # (e.g. ghcr.io/<your-username>/docuseal:latest)
-    image: docuseal/docuseal:latest
+    image: ghcr.io/ayanhva/docuseal/docuseal:latest
     ports:
       - 3000:3000
     volumes:
