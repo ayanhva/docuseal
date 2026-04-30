@@ -359,7 +359,7 @@ en: &en
   email_has_been_sent: Email has been sent.
   email_has_been_sent_already: Email has been sent already.
   # TODO: Change "Initial Setup" to a different string
-  initial_setup: Initial Setup
+  initial_setup: Init Setup
   demo_environment: Demo Environment
   close: Close
   upgrade: Upgrade
